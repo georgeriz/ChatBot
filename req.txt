@@ -1,0 +1,4 @@
+rasa_nlu
+sklearn
+spacy
+sklearn-crfsuite
