@@ -1,4 +1,4 @@
-intent:greet
+## intent:greet
 - hey
 - hello
 - hi
@@ -20,6 +20,8 @@ intent:greet
 - I am looking for [asian fusion](cuisine) food
 - I am looking a restaurant in [29432](location)
 - I want to eat [korean](cuisine) food
+- I want some [spanish](cuisine) food
+- Show me [spanish](cuisine) places
 
 ## intent:thankyou
 - thanks!

@@ -2,3 +2,9 @@ rasa_nlu
 sklearn
 spacy
 sklearn-crfsuite
+
+python -m rasa_nlu.train -c nlu_config.yml --data nlu.md -o models --fixed_model_name nlu --project current --verbose
+
+feature_name = prefix + ":" + feature + ":" + p_name changed to: feature_name = "{}:{}:{}".format(prefix, feature, p_name)
+line 423
+crf_entity_extractor.py
